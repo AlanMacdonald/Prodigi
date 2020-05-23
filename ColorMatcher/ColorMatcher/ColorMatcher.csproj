@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ColourMatcher.Logic\ColorMatcher.Logic.csproj" />
+    <ProjectReference Include="..\ColorMatcher.Logic\ColorMatcher.Logic.csproj" />
   </ItemGroup>
 
   <ItemGroup>

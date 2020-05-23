@@ -39,8 +39,8 @@ namespace ColorMatcher.Logic
 
         /// <summary>
         /// Supports finding a color by Rgb sum.
-        /// More than one colour can exist in a group within the lookup.
-        /// This requires further inspection to ensure the colour is really as desired but facilitates fuzzy searching
+        /// More than one color can exist in a group within the lookup.
+        /// This requires further inspection to ensure the color is really as desired but facilitates fuzzy searching
         /// </summary>
         public ILookup<int, (string ColorNameFromCatalogue, Color Color)> CatalogueByRgbSum { get; private set; }
 

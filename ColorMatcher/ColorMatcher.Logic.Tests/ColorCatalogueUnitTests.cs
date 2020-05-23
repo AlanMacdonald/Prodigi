@@ -21,9 +21,9 @@ namespace ColorMatcher.Logic.Tests
         public void WhenConstructed_CatalogueByArgbIsSet()
         {
             var catalogue = new Dictionary<string, ColorWrapper>();
-            catalogue.Add("ColourName1", new ColorWrapper(Color.FromArgb(255, 1, 1, 1)));
-            catalogue.Add("ColourName2", new ColorWrapper(Color.FromArgb(255, 2, 2, 2)));
-            catalogue.Add("ColourName3", new ColorWrapper(Color.FromArgb(255, 3, 3, 3)));
+            catalogue.Add("colorName1", new ColorWrapper(Color.FromArgb(255, 1, 1, 1)));
+            catalogue.Add("colorName2", new ColorWrapper(Color.FromArgb(255, 2, 2, 2)));
+            catalogue.Add("colorName3", new ColorWrapper(Color.FromArgb(255, 3, 3, 3)));
 
             var colorCatalogue = new ColorCatalogue(catalogue);
 
@@ -33,7 +33,7 @@ namespace ColorMatcher.Logic.Tests
             {
                 
 
-                Assert.AreEqual(true, colorCatalogue.CatalogueByArgb.ContainsKey(colorWrapper.Value.Color.ToArgb()), "Expected to find colour in reverse dictionary by Argb");
+                Assert.AreEqual(true, colorCatalogue.CatalogueByArgb.ContainsKey(colorWrapper.Value.Color.ToArgb()), "Expected to find color in reverse dictionary by Argb");
 
                 var item = colorCatalogue.CatalogueByArgb[colorWrapper.Value.Color.ToArgb()];
 
@@ -46,9 +46,9 @@ namespace ColorMatcher.Logic.Tests
         public void WhenConstructed_CatalogueByRgbSumIsSet()
         {
             var catalogue = new Dictionary<string, ColorWrapper>();
-            catalogue.Add("ColourName1", new ColorWrapper(Color.FromArgb(255, 1, 1, 1)));
-            catalogue.Add("ColourName2", new ColorWrapper(Color.FromArgb(255, 2, 2, 2)));
-            catalogue.Add("ColourName3", new ColorWrapper(Color.FromArgb(255, 3, 3, 3)));
+            catalogue.Add("colorName1", new ColorWrapper(Color.FromArgb(255, 1, 1, 1)));
+            catalogue.Add("colorName2", new ColorWrapper(Color.FromArgb(255, 2, 2, 2)));
+            catalogue.Add("colorName3", new ColorWrapper(Color.FromArgb(255, 3, 3, 3)));
 
             var colorCatalogue = new ColorCatalogue(catalogue);
 
@@ -59,7 +59,7 @@ namespace ColorMatcher.Logic.Tests
                 var rgbSum = colorWrapper.Value.Color.R + colorWrapper.Value.Color.G + colorWrapper.Value.Color.B;
                 var reverseLookupItem = colorCatalogue.CatalogueByRgbSum[rgbSum].ToList();
 
-                Assert.AreEqual(1, reverseLookupItem.Count, "Expected to find one colour in reverse dictionary by RGB Sum");
+                Assert.AreEqual(1, reverseLookupItem.Count, "Expected to find one color in reverse dictionary by RGB Sum");
 
                 var item = reverseLookupItem.First();
 

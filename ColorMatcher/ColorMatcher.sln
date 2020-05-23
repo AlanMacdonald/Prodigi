@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorMatcher", "ColourMatcher\ColorMatcher.csproj", "{0099989C-1524-4893-B553-76212127B4CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorMatcher", "ColorMatcher\ColorMatcher.csproj", "{0099989C-1524-4893-B553-76212127B4CE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorMatcher.Logic", "ColourMatcher.Logic\ColorMatcher.Logic.csproj", "{7143A81C-E27C-463E-B35C-0D2CFC0E9061}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorMatcher.Logic", "ColorMatcher.Logic\ColorMatcher.Logic.csproj", "{7143A81C-E27C-463E-B35C-0D2CFC0E9061}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorMatcher.Logic.Tests", "ColourMatcher.Logic.Tests\ColorMatcher.Logic.Tests.csproj", "{6F441900-3547-4764-B402-F3A0E2FF74A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorMatcher.Logic.Tests", "ColorMatcher.Logic.Tests\ColorMatcher.Logic.Tests.csproj", "{6F441900-3547-4764-B402-F3A0E2FF74A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

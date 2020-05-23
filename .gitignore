@@ -2,12 +2,12 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/ColourMatcher/ColourMatcher/obj
-/ColourMatcher/ColourMatcher/bin/Debug/netcoreapp3.1
+/colorMatcher/colorMatcher/obj
+/colorMatcher/colorMatcher/bin/Debug/netcoreapp3.1
 /.vs/
-/ColourMatcher/.vs/ColourMatcher
-/ColourMatcher/ColourMatcher.Logic/bin/Debug/netstandard2.0
-/ColourMatcher/ColourMatcher.Logic/obj
-/ColourMatcher/ColourMatcher.Logic.Tests/bin/Debug/netcoreapp3.1
-/ColourMatcher/ColourMatcher.Logic.Tests/obj
-/ColourMatcher/.vs/ColorMatcher
+/colorMatcher/.vs/colorMatcher
+/colorMatcher/colorMatcher.Logic/bin/Debug/netstandard2.0
+/colorMatcher/colorMatcher.Logic/obj
+/colorMatcher/colorMatcher.Logic.Tests/bin/Debug/netcoreapp3.1
+/colorMatcher/colorMatcher.Logic.Tests/obj
+/colorMatcher/.vs/ColorMatcher
