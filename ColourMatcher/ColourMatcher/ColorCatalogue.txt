@@ -1,0 +1,6 @@
+﻿{
+	"black":{"Red":36,"Green":36,"Blue":36},
+	"teal":{"Red":0,"Green":98,"Blue":110},
+	"grey":{"Red":56,"Green":70,"Blue":87},
+	"navy":{"Red":0,"Green":0,"Blue":80}
+}
